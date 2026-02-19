@@ -1,6 +1,26 @@
+# --- MetaTrader / MQL4 build artifacts ---
 *.ex4
+*.ex4.old
+*.mq4.bak
+*.mq4~
+
+# --- Temporary / editor files ---
 *.log
 *.tmp
 *.bak
-*.set
-*.ini
+*.swp
+*.swo
+*.~*
+*~
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- Optional: ignore common exported reports (pokud je generuješ do repa omylem) ---
+*.htm
+*.html
+*.csv
+
+# NOTE:
+# *.set НЕignoruju, protože preset nastavení EA chceme verzovat.
